@@ -1,0 +1,39 @@
+# CSV Files
+
+The `CSV' files have not been included due to its size. In order to run the code you need to follow the instructions detailed below.
+
+## Instructions
+
+1. Go to the [worldbank-world-development-indicators](https://datacatalog.worldbank.org/dataset/world-development-indicators).
+
+2. Download the Bulk Downloads `CSV`files if you want to perform the analysis. 
+For this project this is the list of files:
+
+- WDICountry.csv
+- WDISeries.csv
+- WDIData.csv
+
+### DETAILS: 
+
+Download WDI_csv.zip from https://data.worldbank.org/data-catalog/world-development-indicators
+Unzipped the files
+
+performed the below in operations in Python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import random
+%matplotlib inline
+
+wdi = pd.read_csv("WDIData.csv")
+print(wdi.shape)
+print(type(wdi))
+names = wdi.columns.values
+print(names)
+
+wdi_new = pd.melt(wdi, id_vars=['Country Name', 'Country Code', 'Indicator Name', 'Indicator Code'], var_name="Year", value_name="Value") #Transpose the year and thier values
+wdi_new.shape
+wdi_new.head() # new dataframe created
+
+I could see that the columns for each year are transposed to rows.
+
