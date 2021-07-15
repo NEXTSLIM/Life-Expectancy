@@ -40,7 +40,7 @@ print(names)
 <br>
 wdi_new = pd.melt(wdi, id_vars=['Country Name', 'Country Code', 'Indicator Name', 'Indicator Code'], var_name="Year", value_name="Value") 
 wdi_new.shape
-# new dataframe created
+new dataframe created
 wdi_new.head() 
 
 I could see that the columns for each year are transposed to rows.
