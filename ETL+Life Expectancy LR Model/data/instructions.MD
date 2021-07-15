@@ -20,6 +20,7 @@ Unzipped the files
 
 Performed the below in operations in Python 
 <br>
+<br>
 import pandas as pd
 <br>
 import numpy as np
@@ -36,7 +37,7 @@ print(type(wdi))
 names = wdi.columns.values
 print(names)
 
-#Transpose the year and thier values
+Transpose the year and thier values
 <br>
 wdi_new = pd.melt(wdi, id_vars=['Country Name', 'Country Code', 'Indicator Name', 'Indicator Code'], var_name="Year", value_name="Value") 
 wdi_new.shape
