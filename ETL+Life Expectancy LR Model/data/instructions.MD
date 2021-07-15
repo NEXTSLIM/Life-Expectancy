@@ -18,7 +18,7 @@ For this project this is the list of files:
 Download WDI_csv.zip from https://data.worldbank.org/data-catalog/world-development-indicators
 Unzipped the files
 
-performed the below in operations in Python 
+Performed the below in operations in Python 
 <br>
 import pandas as pd
 <br>
@@ -37,6 +37,7 @@ names = wdi.columns.values
 print(names)
 
 #Transpose the year and thier values
+<br>
 wdi_new = pd.melt(wdi, id_vars=['Country Name', 'Country Code', 'Indicator Name', 'Indicator Code'], var_name="Year", value_name="Value") 
 wdi_new.shape
 # new dataframe created
