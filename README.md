@@ -1,4 +1,4 @@
-# Life-Expectancy
+# Life-Expectancy(DATA ANALYSIS)
 Can we correctly predict life expectancy? And, if so, which features are most relevant for prediction?
 
 With 1,345 indicators across 20 categories for 60 years, the World Bank Data Bank is an invaluable resource to help us explore insigns about the life expectancy.
