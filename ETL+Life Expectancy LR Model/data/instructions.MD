@@ -18,11 +18,16 @@ For this project this is the list of files:
 Download WDI_csv.zip from https://data.worldbank.org/data-catalog/world-development-indicators
 Unzipped the files
 
-performed the below in operations in Python
+performed the below in operations in Python 
+<br>
 import pandas as pd
+<br>
 import numpy as np
+<br>
 import matplotlib.pyplot as plt
+<br>
 import random
+<br>
 %matplotlib inline
 
 wdi = pd.read_csv("WDIData.csv")
