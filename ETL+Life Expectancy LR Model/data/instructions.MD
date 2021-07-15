@@ -40,6 +40,7 @@ print(names)
 <br>
 wdi_new = pd.melt(wdi, id_vars=['Country Name', 'Country Code', 'Indicator Name', 'Indicator Code'], var_name="Year", value_name="Value") 
 wdi_new.shape
+<br>
 new dataframe created
 wdi_new.head() 
 
