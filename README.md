@@ -12,3 +12,6 @@ We then filtered it further by identifying 19 more rounded (Social, Economic, Mo
 Finally, we built and deployed an interactive GBR machine learning model to predict life expectancy based on our 19 key indicators, during the period of 1999-2019.
 
 
+CHECK THE WEB!: https://expectancy-web.herokuapp.com/
+
+CHECK THE APP!:https://expectancy-app.herokuapp.com/
